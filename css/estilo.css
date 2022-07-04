@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'source sans pro', sans-serif;
+}
+
+header {
+    background-color: white;
+    align-items: center;
+    height: 4rem;
+    width: 1350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.link-topo {
+    text-transform: uppercase;
+    margin-left: 1rem;
+    padding-right: 1.5rem;
+}
+
+.links {
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.726);
+}
+
+.titulo {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 2rem;
+}
+
+.titulo span {
+    color: rgba(7, 112, 63, 0.671)
+}
+
+.container1 {
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+    background-image: url("/assets/img-fundo.jpg");
+    background-repeat: no-repeat;
+}
+
+.centro-foto {
+    color: white;
+    text-align: center;
+    margin: 10rem;
+    padding: 2rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    border: 1px solid rgba(71, 124, 108, 0.671);
+    background-color: rgba(71, 124, 108, 0.671);
+    border-radius: 3px;
+}
+
+.titulo-pousada {
+    font-size: 38px;
+    margin-bottom: 3rem;
+}
+
+.paragrafo-pousada {
+    font-size: 21px;
+}
+
+.container-repetido {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.estilo-container {
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 5rem;
+    font-size: 26px;
+}
+
+.estilo-paragrafo {
+    line-height: 3rem;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 75vw;
+    padding-left: 12vw;
+}
+
+.container3 img {
+    width: 95%;
+    padding-bottom: 2vh;
+}
+
+.descricao-quartos {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding-bottom: 1.5vh;
+    border-bottom: 2px solid rgba(47, 109, 80, 0.671);
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    min-width: 300px;
+    margin: auto;
+    padding-bottom: 10vh;
+}
+
+.info img {
+    max-width: 95px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.info {
+    display: flex;
+    max-width: 45%;
+    margin: 0 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.informacoes-conteudo {
+    float: 1 1 auto;
+    padding-left: 3vw;
+}
+
+.informacoes-conteudo h3 {
+    line-height: 8vh;
+}
+
+.informacoes-conteudo-recepcao {
+    float: 1 1 auto;
+    padding: 2vw;
+    padding-right: 7vw;
+    line-height: 6vh;
+}
+
+footer {
+    background-color: rgba(7, 112, 63, 0.671);
+    color: white;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 3rem;
+}
+
+.rodape {
+    width: 23%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgba(47, 109, 80, 0.39);
+}
+
+.rodape-telefone {
+    width: 23%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 5rem;
+    border-bottom: 2px solid rgba(47, 109, 80, 0.39);
+}
+
+.rodape h4 {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.rodape p {
+    text-align: center;
+}
+
+.rodape-telefone p {
+    text-align: center;
+    padding-left: 1vw;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.rodape img {
+    width: 40px;
+    height: 40px;
+    margin-right: 9px;
+}
+
+.copyright {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
