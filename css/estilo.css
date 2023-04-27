@@ -1,215 +1,417 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    font-family: 'source sans pro', sans-serif;
+  font-family: "source sans pro", sans-serif;
 }
 
 header {
-    background-color: white;
-    align-items: center;
-    height: 4rem;
-    width: 1350px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: fixed;
+  background-color: white;
+  align-items: center;
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
 }
 
 .link-topo {
-    text-transform: uppercase;
-    margin-left: 1rem;
-    padding-right: 1.5rem;
+  text-transform: uppercase;
+  margin-left: 1rem;
+  padding-right: 1.5rem;
 }
 
 .links {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 header a {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.726);
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.726);
 }
 
 .titulo {
-    font-size: 20px;
-    font-weight: 600;
-    margin-left: 2rem;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 2rem;
 }
 
 .titulo span {
-    color: rgba(7, 112, 63, 0.671)
+  color: rgba(7, 112, 63, 0.671);
 }
 
 .container1 {
-    padding-top: 7rem;
-    padding-bottom: 4rem;
-    background-image: url("/assets/img-fundo.jpg");
-    background-repeat: no-repeat;
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+  background-image: url("/assets/img-fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .centro-foto {
-    color: white;
-    text-align: center;
-    margin: 10rem;
-    padding: 2rem;
-    margin-left: 25rem;
-    margin-right: 25rem;
-    border: 1px solid rgba(71, 124, 108, 0.671);
-    background-color: rgba(71, 124, 108, 0.671);
-    border-radius: 3px;
+  color: white;
+  text-align: center;
+  margin: 10rem;
+  padding: 2rem;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  border: 1px solid rgba(71, 124, 108, 0.671);
+  background-color: rgba(71, 124, 108, 0.671);
+  border-radius: 3px;
 }
 
 .titulo-pousada {
-    font-size: 38px;
-    margin-bottom: 3rem;
+  font-size: 38px;
+  margin-bottom: 3rem;
 }
 
 .paragrafo-pousada {
-    font-size: 21px;
+  font-size: 21px;
 }
 
 .container-repetido {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
 }
 
 .estilo-container {
-    text-transform: uppercase;
-    font-weight: normal;
-    line-height: 5rem;
-    font-size: 26px;
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 5rem;
+  font-size: 26px;
 }
 
 .estilo-paragrafo {
-    line-height: 3rem;
+  line-height: 3rem;
 }
 
 .container3 {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: space-evenly;
-    width: 75vw;
-    padding-left: 12vw;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  width: 75vw;
+  padding-left: 12vw;
 }
 
 .container3 img {
-    width: 95%;
-    padding-bottom: 2vh;
+  width: 95%;
+  padding-bottom: 2vh;
 }
 
 .descricao-quartos {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-    padding-bottom: 1.5vh;
-    border-bottom: 2px solid rgba(47, 109, 80, 0.671);
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  padding-bottom: 1.5vh;
+  border-bottom: 2px solid rgba(47, 109, 80, 0.671);
 }
 
 .informacoes {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 1024px;
-    min-width: 300px;
-    margin: auto;
-    padding-bottom: 10vh;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  min-width: 300px;
+  margin: auto;
+  padding-bottom: 10vh;
 }
 
 .info img {
-    max-width: 95px;
-    height: 110px;
-    object-fit: cover;
+  max-width: 95px;
+  height: 110px;
+  object-fit: cover;
 }
 
 .info {
-    display: flex;
-    max-width: 45%;
-    margin: 0 10px;
-    padding: 10px;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  max-width: 45%;
+  margin: 0 10px;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .informacoes-conteudo {
-    float: 1 1 auto;
-    padding-left: 3vw;
+  float: 1 1 auto;
+  padding-left: 3vw;
 }
 
 .informacoes-conteudo h3 {
-    line-height: 8vh;
+  line-height: 8vh;
 }
 
 .informacoes-conteudo-recepcao {
-    float: 1 1 auto;
-    padding: 2vw;
-    padding-right: 7vw;
-    line-height: 6vh;
+  float: 1 1 auto;
+  padding: 2vw;
+  padding-right: 7vw;
+  line-height: 6vh;
 }
 
 footer {
-    background-color: rgba(7, 112, 63, 0.671);
-    color: white;
-    padding: 1rem;
-    justify-content: space-between;
+  background-color: rgba(7, 112, 63, 0.671);
+  color: white;
+  padding: 1rem;
+  justify-content: space-between;
 }
 
 .contatos {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    padding-left: 3rem;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 3rem;
 }
 
 .rodape {
-    width: 23%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    border-bottom: 2px solid rgba(47, 109, 80, 0.39);
+  width: 23%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid rgba(47, 109, 80, 0.39);
 }
 
 .rodape-telefone {
-    width: 23%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    padding-left: 5rem;
-    border-bottom: 2px solid rgba(47, 109, 80, 0.39);
+  width: 23%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;
+  border-bottom: 2px solid rgba(47, 109, 80, 0.39);
 }
 
 .rodape h4 {
-    font-size: 20px;
-    text-align: left;
-    margin-left: 20px;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 20px;
 }
 
 .rodape p {
-    text-align: center;
+  text-align: center;
 }
 
 .rodape-telefone p {
-    text-align: center;
-    padding-left: 1vw;
+  text-align: center;
+  padding-left: 1vw;
 }
 
 .rodape a {
-    text-decoration: none;
-    color: white;
-    margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
 }
 
 .rodape img {
-    width: 40px;
-    height: 40px;
-    margin-right: 9px;
+  width: 40px;
+  height: 40px;
+  margin-right: 9px;
 }
 
 .copyright {
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
 }
+
+@media (min-width: 1300px) {
+  header {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 834px) {
+  .titulo {
+    font-size: 28px;
+    margin-left: 1rem;
+  }
+
+  .centro-foto {
+    margin: 3rem 1rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .titulo-pousada {
+    font-size: 28px;
+    margin-bottom: 2rem;
+  }
+
+  .paragrafo-pousada {
+    font-size: 18px;
+  }
+
+  .estilo-container {
+    font-size: 22px;
+    line-height: 4.5rem;
+  }
+
+  .estilo-paragrafo {
+    line-height: 2.5rem;
+  }
+
+  .descricao-quartos {
+    font-size: 18px;
+    padding-bottom: 1vh;
+    border-bottom: 1px solid rgba(47, 109, 80, 0.671);
+  }
+
+  .informacoes-conteudo h3 {
+    line-height: 5vh;
+  }
+
+  .rodape {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .rodape-telefone {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    padding-top: 1rem;
+    border-bottom: none;
+  }
+
+  .rodape h4 {
+    font-size: 16px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .rodape p {
+    text-align: center;
+    margin: 0;
+  }
+
+  .rodape-telefone p {
+    padding-left: 0.5vw;
+    margin: 0;
+  }
+
+  .contatos {
+    padding-left: 0;
+    margin-top: 1rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contato {
+    margin-bottom: 1rem;
+  }
+
+  .contato a {
+    margin-right: 5px;
+  }
+
+  .contato img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+
+  .contato p {
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+    header {
+      height: 6rem;
+      padding-bottom: 1rem;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .titulo {
+      margin: 0;
+      margin-top: 1rem;
+    }
+  
+    .centro-foto {
+      margin: 5rem 1rem;
+      padding: 1rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  
+    .container3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding-left: 0;
+    }
+  
+    .container3 img {
+      width: 100%;
+    }
+  
+    .informacoes {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 100%;
+      min-width: 0;
+      padding-bottom: 5vh;
+    }
+  
+    .info {
+      max-width: 100%;
+      margin: 0;
+      margin-bottom: 2rem;
+      padding: 1rem;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .informacoes-conteudo-recepcao {
+      padding: 2vw;
+      padding-right: 2vw;
+      line-height: 6vh;
+    }
+  
+    footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .contatos {
+      flex-direction: column;
+      align-items: center;
+      padding-left: 0;
+      padding-bottom: 2rem;
+    }
+  
+    .rodape {
+      width: 100%;
+      height: auto;
+      border-bottom: none;
+      margin-bottom: 1rem;
+    }
+  
+    .rodape-telefone {
+      width: 100%;
+      height: auto;
+      border-bottom: none;
+      margin-bottom: 1rem;
+      padding-left: 0;
+    }
+    
+    .rodape h4 {
+      font-size: 18px;
+    }
+  }
+  
