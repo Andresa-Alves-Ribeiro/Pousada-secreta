@@ -14,11 +14,10 @@
 &nbsp;
 
 **Desktop View**
-![web](https://user-images.githubusercontent.com/94997593/234730907-79688d7c-6d73-4a75-8156-165bafc083f5.png)
-
-
-
 ![Captura de tela 2022-07-03 215852](https://user-images.githubusercontent.com/94997593/177064467-a426bc84-689c-4997-8738-3dcc29a153f3.gif)
+
+![web](https://user-images.githubusercontent.com/94997593/236955670-7253c8fd-94c1-4489-86d7-8a527e1f8dc2.png)
+
 
 
 **Mobile View** <br/>
